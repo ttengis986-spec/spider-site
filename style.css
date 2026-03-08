@@ -1,0 +1,27 @@
+body {margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+canvas {display: block;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    position: absolute;
+    z-index: -1;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.small {font-size: 30px;
+}
+.big {font-size: 50px;
+}
